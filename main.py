@@ -56,8 +56,6 @@ if __name__ == '__main__':
     sb.load_cookie_str(cookies)
     res = sb.checkin()
     print(res)
-    str.encode(res).decode()
-    requests.get('https://api.day.app/jKmy5WXYXsz8MZ83VV4a99/%E4%BB%80%E4%B9%88%E5%80%BC%E5%BE%97%E4%B9%B0/啊啊啊/?icon=https://s1.ax1x.com/2022/07/14/jfAreH.jpg')
     requests.get('https://api.day.app/jKmy5WXYXsz8MZ83VV4a99/%E4%BB%80%E4%B9%88%E5%80%BC%E5%BE%97%E4%B9%B0/%E7%AD%BE%E5%88%B0%E6%88%90%E5%8A%9F/?icon=https://s1.ax1x.com/2022/07/14/jfAreH.jpg')
     SERVERCHAN_SECRETKEY = os.environ["SERVERCHAN_SECRETKEY"]
     print('sc_key: ', SERVERCHAN_SECRETKEY)
